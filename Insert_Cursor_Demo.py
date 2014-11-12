@@ -1,9 +1,10 @@
 """ Demonstrate usage of the DA module's InsertCursor and SearchCursor. """
 
-import arcpy, os
+import os
+import arcpy
 
 # Parameters for the cursor's
-feature_class = os.getcwd() + r"\Cursor Demo.gdb\Animals"
+feature_class = os.path.join(os.getcwd(), "Cursor Demo.gdb", "Animals")
 field_names   = ("OID@", "AnimalType", "AnimalName", "ScarinessRank")
 Groundhog = (8, "Groundhog", "Phil", 0)
 
