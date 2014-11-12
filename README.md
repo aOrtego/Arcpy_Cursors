@@ -17,6 +17,6 @@ Update Cursor: http://resources.arcgis.com/en/help/main/10.2/index.html#/UpdateC
 
 ###Challenges
 
-1. Try running the insert cursor script before the update cursor script. What changed in the attribute table after running the insert cursor? What changed in the attribute table after running the update cursor?
+**1**. Try running the insert cursor script before the update cursor script. What changed in the attribute table after running the insert cursor? What changed in the attribute table after running the update cursor?
 
-2. Write your own code using the scripts provided as guidance. Create a script which searches for the really scary animals in the attribute table, and puts an exclamation mark after the animal-type if that animal is particularly scary. *Hint*: you'll have to nest one cursor inside another!
+**2.** Write your own code using the scripts provided as guidance. Create a script which searches for the really scary animals in the attribute table, and puts an exclamation mark after the animal-type if that animal is particularly scary. *Hint*: you'll have to nest one cursor inside another!
