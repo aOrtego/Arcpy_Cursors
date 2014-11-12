@@ -1,10 +1,11 @@
 """ Demonstrate usage of the DA module's UpdateCursor with a SQL statement.
     Deletes the Groundhog field. """
 
-import arcpy, os
+import os
+import arcpy
 
 # Cursor parameters
-feature_class = os.getcwd() + r"\Cursor Demo.gdb\Animals"
+feature_class = os.path.join(os.getcwd(), "Cursor Demo.gdb", "Animals")
 field_names   = ["OID@", "AnimalType", "AnimalName", "ScarinessRank"]
 sql_statement = "ScarinessRank = 0"
 
